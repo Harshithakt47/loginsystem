@@ -1,0 +1,92 @@
+
+
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #483e5c;
+    margin: 0;
+    padding: 0;
+}
+
+/* Profile header */
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Profile container */
+.profile-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Input fields */
+.profile-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button container for Submit and Logout */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Adjust button width */
+.button-container button {
+    width: 48%; /* Ensures both buttons take equal space */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Submit button */
+.button-container .submit {
+    background-color: #4CAF50;
+}
+
+/* Hover effect for Submit button */
+.button-container .submit:hover {
+    background-color: #26c047;
+}
+
+/* Logout button */
+.button-container .logout {
+    background-color: rgb(15, 63, 221);
+}
+
+/* Hover effect for Logout button */
+.button-container .logout:hover {
+    background-color: #26c047;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .profile-container {
+        width: 90%;
+    }
+
+    .button-container {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .button-container button {
+        width: 50%;
+    }
+}

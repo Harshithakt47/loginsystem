@@ -1,0 +1,92 @@
+
+
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #ececf5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fac38f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  form input,
+  form textarea,
+  form select { 
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  form label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  form .radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  form .radio-group input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #0e62e0;
+    color: white;
+    border:none;
+    
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  form .error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  form .success-message {
+    color: green;
+    font-size: 16px;
+  }
+  
+  form .captcha {
+    margin-top: 20px;
+  }
+  
+  form .reset-btn {
+    background-color: #f44336;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  form .reset-btn:hover {
+    background-color: #e53935;
+  }
+  
+  @media (max-width: 768px) {
+    form {
+      width: 90%;
+    }
+  }
+  
